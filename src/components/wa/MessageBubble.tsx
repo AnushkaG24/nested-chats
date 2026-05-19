@@ -1,4 +1,4 @@
-import { ChevronDown, MessageCircle, Check, CheckCheck } from "lucide-react";
+import { ChevronDown, MessageCircle, CheckCheck } from "lucide-react";
 import { useState } from "react";
 import type { Message } from "@/lib/mock-data";
 
