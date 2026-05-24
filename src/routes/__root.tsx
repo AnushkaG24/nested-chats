@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Threaded Conversation on Whatsapp group chat" },
+      { name: "description", content: "Desktop app replicates WhatsApp Web with advanced message threading." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Threaded Conversation on Whatsapp group chat" },
+      { property: "og:description", content: "Desktop app replicates WhatsApp Web with advanced message threading." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Threaded Conversation on Whatsapp group chat" },
+      { name: "twitter:description", content: "Desktop app replicates WhatsApp Web with advanced message threading." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4e02709e-cee9-497c-8292-aae1ee93e302/id-preview-282fcef2--a442ec51-7be6-441e-bffa-0d99c8bfaa19.lovable.app-1779210110728.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4e02709e-cee9-497c-8292-aae1ee93e302/id-preview-282fcef2--a442ec51-7be6-441e-bffa-0d99c8bfaa19.lovable.app-1779210110728.png" },
     ],
     links: [
       {
